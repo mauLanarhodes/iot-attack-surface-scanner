@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: iotscanner
+Version: 0.1.0
+Summary: IoT Attack Surface Scanner — discover and fingerprint devices on your network
+Requires-Python: >=3.11
+Requires-Dist: typer[all]>=0.12
+Requires-Dist: rich>=13.7
+Requires-Dist: scapy>=2.5
+Requires-Dist: zeroconf>=0.131
+Requires-Dist: httpx>=0.27
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: lxml>=5.0

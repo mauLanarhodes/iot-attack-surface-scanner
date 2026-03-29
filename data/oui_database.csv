@@ -1,0 +1,501 @@
+oui,vendor
+DC:A6:32,Raspberry Pi Trading Ltd
+B8:27:EB,Raspberry Pi Foundation
+E4:5F:01,Raspberry Pi Trading Ltd
+D8:3A:DD,Raspberry Pi Trading Ltd
+28:CD:C1,Raspberry Pi Trading Ltd
+A4:91:B1,ASUSTek COMPUTER INC.
+1C:87:2C,ASUSTek COMPUTER INC.
+2C:FD:A1,ASUSTek COMPUTER INC.
+04:D4:C4,ASUSTek COMPUTER INC.
+50:C7:BF,TP-LINK TECHNOLOGIES CO. LTD.
+68:FF:7B,TP-LINK TECHNOLOGIES CO. LTD.
+AC:84:C6,TP-LINK TECHNOLOGIES CO. LTD.
+F4:F2:6D,TP-LINK TECHNOLOGIES CO. LTD.
+30:B5:C2,TP-LINK TECHNOLOGIES CO. LTD.
+54:C8:0F,TP-LINK TECHNOLOGIES CO. LTD.
+5C:E9:31,TP-LINK TECHNOLOGIES CO. LTD.
+14:CC:20,TP-LINK TECHNOLOGIES CO. LTD.
+EC:08:6B,TP-LINK TECHNOLOGIES CO. LTD.
+B0:4E:26,TP-LINK TECHNOLOGIES CO. LTD.
+18:FE:34,Espressif Inc.
+24:0A:C4,Espressif Inc.
+30:AE:A4,Espressif Inc.
+5C:CF:7F,Espressif Inc.
+60:01:94,Espressif Inc.
+A0:20:A6,Espressif Inc.
+A4:CF:12,Espressif Inc.
+CC:50:E3,Espressif Inc.
+EC:FA:BC,Espressif Inc.
+84:CC:A8,Espressif Inc.
+10:52:1C,Espressif Inc.
+24:6F:28,Espressif Inc.
+B4:E6:2D,Google Inc.
+F4:F5:D8,Google Inc.
+54:60:09,Google Inc.
+F8:8F:CA,Google Inc.
+3C:5A:B4,Google Inc.
+A4:77:33,Google Inc.
+48:D6:D5,Google Inc.
+00:17:88,Philips Lighting BV
+00:09:B0,Onkyo Corporation
+00:04:20,Slim Devices Inc.
+78:8A:20,Ubiquiti Inc.
+F0:9F:C2,Ubiquiti Inc.
+04:18:D6,Ubiquiti Inc.
+18:E8:29,Ubiquiti Inc.
+24:5A:4C,Ubiquiti Inc.
+68:D7:9A,Ubiquiti Inc.
+74:83:C2,Ubiquiti Inc.
+80:2A:A8,Ubiquiti Inc.
+FC:EC:DA,Ubiquiti Inc.
+B4:FB:E4,Ubiquiti Inc.
+3C:22:FB,Apple Inc.
+AC:BC:32,Apple Inc.
+28:6A:BA,Apple Inc.
+F0:18:98,Apple Inc.
+A4:83:E7,Apple Inc.
+78:7B:8A,Apple Inc.
+F8:FF:C2,Apple Inc.
+3C:E0:72,Apple Inc.
+A0:99:9B,Apple Inc.
+14:98:77,Apple Inc.
+B0:65:BD,Apple Inc.
+7C:D1:C3,Apple Inc.
+6C:96:CF,Apple Inc.
+DC:A9:04,Apple Inc.
+E0:5F:45,Apple Inc.
+4C:57:CA,Apple Inc.
+00:25:00,Apple Inc.
+8C:85:90,Apple Inc.
+BC:52:B7,Samsung Electronics Co. Ltd.
+C0:97:27,Samsung Electronics Co. Ltd.
+8C:F5:A3,Samsung Electronics Co. Ltd.
+F8:04:2E,Samsung Electronics Co. Ltd.
+AC:5F:3E,Samsung Electronics Co. Ltd.
+14:49:E0,Samsung Electronics Co. Ltd.
+34:14:5F,Samsung Electronics Co. Ltd.
+00:24:54,Samsung Electronics Co. Ltd.
+EC:1F:72,Samsung Electronics Co. Ltd.
+B8:D7:AF,Samsung Electronics Co. Ltd.
+FC:A1:83,Amazon Technologies Inc.
+34:D2:70,Amazon Technologies Inc.
+74:C2:46,Amazon Technologies Inc.
+A0:02:DC,Amazon Technologies Inc.
+44:65:0D,Amazon Technologies Inc.
+40:B4:CD,Amazon Technologies Inc.
+68:37:E9,Amazon Technologies Inc.
+F0:F0:A4,Amazon Technologies Inc.
+18:74:2E,Amazon Technologies Inc.
+CC:F7:35,Amazon Technologies Inc.
+AC:63:BE,Amazon Technologies Inc.
+B0:FC:36,Amazon Technologies Inc.
+94:53:30,Amazon Ring LLC
+50:DC:E7,Amazon Ring LLC
+0C:47:C9,Amazon Ring LLC
+34:3E:A4,Amazon Ring LLC
+F6:27:65,Amazon Ring LLC
+18:B4:30,Nest Labs Inc.
+64:16:66,Nest Labs Inc.
+18:B7:9E,Google LLC (Nest)
+D8:EB:46,Google LLC (Nest)
+7C:49:EB,Sonos Inc.
+34:7E:5C,Sonos Inc.
+48:A6:B8,Sonos Inc.
+78:28:CA,Sonos Inc.
+94:9F:3E,Sonos Inc.
+54:2A:1B,Sonos Inc.
+B8:E9:37,Sonos Inc.
+C4:38:FF,Belkin International Inc.
+EC:1A:59,Belkin International Inc.
+08:86:3B,Belkin International Inc.
+30:23:03,Belkin International Inc.
+B4:75:0E,Belkin International Inc.
+94:10:3E,Belkin International Inc.
+20:E5:2A,Netgear Inc.
+C4:04:15,Netgear Inc.
+84:1B:5E,Netgear Inc.
+A0:40:A0,Netgear Inc.
+2C:B0:5D,Netgear Inc.
+28:C6:8E,Netgear Inc.
+E0:91:F5,Netgear Inc.
+E4:F4:C6,Netgear Inc.
+B0:B9:8A,Netgear Inc.
+6C:B0:CE,Netgear Inc.
+20:AA:4B,Linksys (Cisco Systems)
+C0:56:27,Linksys (Cisco Systems)
+58:6D:8F,Linksys (Cisco Systems)
+E8:F7:24,Linksys (Cisco Systems)
+14:91:82,Linksys (Cisco Systems)
+A0:3D:6F,Linksys (Cisco Systems)
+B0:6E:BF,D-Link Corporation
+1C:7E:E5,D-Link Corporation
+F0:7D:68,D-Link Corporation
+28:10:7B,D-Link Corporation
+CC:B2:55,D-Link Corporation
+84:C9:B2,D-Link Corporation
+34:08:04,D-Link Corporation
+C8:BE:19,D-Link Corporation
+C4:A8:1D,Hikvision Digital Technology
+A4:14:37,Hikvision Digital Technology
+44:19:B6,Hikvision Digital Technology
+28:57:BE,Hikvision Digital Technology
+54:C4:15,Hikvision Digital Technology
+BC:AD:28,Hikvision Digital Technology
+E0:CA:4D,Hikvision Digital Technology
+3C:EF:8C,Dahua Technology Co. Ltd.
+A0:BD:1D,Dahua Technology Co. Ltd.
+E0:50:8B,Dahua Technology Co. Ltd.
+90:02:A9,Dahua Technology Co. Ltd.
+40:F4:FD,Dahua Technology Co. Ltd.
+4C:11:BF,Dahua Technology Co. Ltd.
+2C:AA:8E,Wyze Labs Inc.
+7C:78:B2,Wyze Labs Inc.
+D0:3F:27,Tuya Smart Inc.
+10:D5:61,Tuya Smart Inc.
+84:E3:42,Tuya Smart Inc.
+D8:1F:12,Tuya Smart Inc.
+48:3F:DA,Tuya Smart Inc.
+7C:DD:90,Shelly (Allterco Robotics)
+30:83:98,Shelly (Allterco Robotics)
+E8:DB:84,Shelly (Allterco Robotics)
+EC:64:C9,Shelly (Allterco Robotics)
+D8:F1:5B,LIFX
+D0:73:D5,LIFX
+40:A2:DB,Ecobee Inc.
+44:61:32,Ecobee Inc.
+00:D0:2D,Resideo (Honeywell Home)
+B8:2C:A0,Honeywell International
+F0:B4:29,Honeywell International
+54:2B:DE,Logitech Inc.
+6C:D0:3E,Logitech Inc.
+00:04:F3,Logitech Inc.
+00:1F:20,Logitech Inc.
+04:4E:AF,Logitech Inc.
+B4:0E:DE,Roku Inc.
+AC:3A:7A,Roku Inc.
+C8:3A:6B,Roku Inc.
+10:59:32,Roku Inc.
+B0:A7:37,Roku Inc.
+84:EA:ED,Roku Inc.
+D4:E2:CB,Roku Inc.
+DC:D9:16,Roku Inc.
+28:18:78,Microsoft Corporation
+C8:D9:D2,Microsoft Corporation
+B4:AE:2B,Microsoft Corporation
+7C:1E:52,Microsoft Corporation
+60:45:BD,Microsoft Corporation
+00:15:5D,Microsoft Corporation
+3C:37:86,Microsoft Corporation
+00:50:F2,Microsoft Corporation
+B4:2E:99,Intel Corporate
+F4:8E:38,Intel Corporate
+A4:C4:94,Intel Corporate
+48:51:B7,Intel Corporate
+3C:6A:A7,Intel Corporate
+7C:76:35,Intel Corporate
+5C:87:9C,Intel Corporate
+00:1B:21,Intel Corporate
+A0:88:B4,Intel Corporate
+34:E6:AD,Intel Corporate
+F8:16:54,Intel Corporate
+80:86:F2,Intel Corporate
+88:B1:11,Intel Corporate
+00:1E:67,Intel Corporate
+8C:EC:4B,Intel Corporate
+00:0C:29,VMware Inc.
+00:50:56,VMware Inc.
+34:29:8F,Cisco Systems Inc.
+F4:DB:E6,Cisco Systems Inc.
+78:DA:6E,Cisco Systems Inc.
+7C:AD:74,Cisco Systems Inc.
+3C:08:F6,Cisco Systems Inc.
+6C:41:6A,Cisco Systems Inc.
+B8:38:61,Cisco Systems Inc.
+18:E7:28,Cisco Systems Inc.
+00:21:5C,Intel Corporate
+E8:B1:FC,Intel Corporate
+3C:D9:2B,HP Inc.
+10:60:4B,HP Inc.
+94:57:A5,HP Inc.
+FC:15:B4,HP Inc.
+D0:BF:9C,HP Inc.
+80:CE:62,HP Inc.
+58:20:B1,HP Inc.
+24:BE:05,Dell Inc.
+F8:DB:88,Dell Inc.
+F4:8E:92,Dell Inc.
+B0:83:FE,Dell Inc.
+34:17:EB,Dell Inc.
+18:DB:F2,Dell Inc.
+00:14:22,Dell Inc.
+28:D2:44,Lenovo
+98:E7:43,Lenovo
+E8:2A:44,Lenovo
+50:7B:9D,Lenovo
+B0:35:9F,Lenovo
+70:5A:0F,LG Electronics
+A8:23:FE,LG Electronics
+C4:36:6C,LG Electronics
+BC:F5:AC,LG Electronics
+CC:2D:8C,LG Electronics
+20:3D:BD,LG Electronics
+40:B8:9A,LG Electronics
+04:5D:4B,Sony Corporation
+FC:F1:52,Sony Corporation
+78:84:3C,Sony Corporation
+B4:52:7E,Sony Corporation
+00:24:BE,Sony Corporation
+D8:D4:3C,Sony Corporation
+00:1D:BA,Sony Corporation
+04:52:C7,Bose Corporation
+2C:41:A1,Bose Corporation
+4C:87:5D,Bose Corporation
+88:C6:26,Bose Corporation
+D4:63:C6,Bose Corporation
+7C:96:D2,Microsoft Corporation
+4C:0F:C7,Xiaomi Communications Co. Ltd.
+28:6C:07,Xiaomi Communications Co. Ltd.
+64:B4:73,Xiaomi Communications Co. Ltd.
+78:11:DC,Xiaomi Communications Co. Ltd.
+F8:A4:5F,Xiaomi Communications Co. Ltd.
+AC:C1:EE,Xiaomi Communications Co. Ltd.
+50:EC:50,Xiaomi Communications Co. Ltd.
+58:44:98,Xiaomi Communications Co. Ltd.
+FC:64:BA,Xiaomi Communications Co. Ltd.
+00:9E:C8,Xiaomi Communications Co. Ltd.
+E4:AA:EC,Xiaomi Communications Co. Ltd.
+88:C3:97,Huawei Technologies Co. Ltd.
+F4:4C:7F,Huawei Technologies Co. Ltd.
+48:46:FB,Huawei Technologies Co. Ltd.
+00:46:4B,Huawei Technologies Co. Ltd.
+CC:A2:23,Huawei Technologies Co. Ltd.
+28:3C:E4,Huawei Technologies Co. Ltd.
+AC:E8:7B,Huawei Technologies Co. Ltd.
+5C:C3:07,Huawei Technologies Co. Ltd.
+70:8C:B6,Huawei Technologies Co. Ltd.
+BC:76:70,Huawei Technologies Co. Ltd.
+04:B1:67,Huawei Technologies Co. Ltd.
+00:E0:FC,Huawei Technologies Co. Ltd.
+34:CD:BE,Huawei Technologies Co. Ltd.
+F4:63:1F,Huawei Technologies Co. Ltd.
+D0:C5:D3,ARRIS Group Inc.
+10:86:8C,ARRIS Group Inc.
+F8:E4:3B,ARRIS Group Inc.
+00:1D:D2,ARRIS Group Inc.
+C8:B3:73,Cisco-Linksys LLC
+20:C9:D0,Motorola Mobility LLC
+E8:65:D4,Tenda Technology Co. Ltd.
+CC:32:E5,Nintendo Co. Ltd.
+7C:BB:8A,Nintendo Co. Ltd.
+E8:4E:CE,Nintendo Co. Ltd.
+B8:AE:6E,Nintendo Co. Ltd.
+D8:6B:F7,Nintendo Co. Ltd.
+8C:CD:E8,Nintendo Co. Ltd.
+78:A2:A0,Nintendo Co. Ltd.
+A4:38:CC,Nintendo Co. Ltd.
+9C:E6:35,Nintendo Co. Ltd.
+A8:BD:27,Hewlett Packard Enterprise
+E0:07:1B,Hewlett Packard Enterprise
+48:DF:37,Hewlett Packard Enterprise
+D0:67:E5,Dell Technologies
+A0:36:9F,Intel Corporate
+B8:85:84,Intel Corporate
+50:EB:F6,ASUSTek COMPUTER INC.
+10:C3:7B,ASUSTek COMPUTER INC.
+60:A4:4C,ASUSTek COMPUTER INC.
+F0:46:3B,ASUSTek COMPUTER INC.
+A0:CE:C8,ASUSTek COMPUTER INC.
+2C:4D:54,ASUSTek COMPUTER INC.
+08:60:6E,ASUSTek COMPUTER INC.
+B8:A3:86,Murata Manufacturing Co. Ltd.
+5C:E0:C5,Murata Manufacturing Co. Ltd.
+CC:44:63,Murata Manufacturing Co. Ltd.
+44:91:60,Murata Manufacturing Co. Ltd.
+40:F3:08,Murata Manufacturing Co. Ltd.
+00:13:E0,Murata Manufacturing Co. Ltd.
+00:26:E8,Murata Manufacturing Co. Ltd.
+00:0E:6D,Murata Manufacturing Co. Ltd.
+38:A2:8C,Ruckus Networks
+B4:79:A7,Ruckus Networks
+74:67:F7,Ruckus Networks
+A4:5D:36,Sagemcom SAS
+00:19:70,Z-Com Inc.
+00:1A:22,eQ-3 AG
+5C:B9:01,Xiaomi Communications Co. Ltd.
+64:CE:73,Xiaomi Communications Co. Ltd.
+50:02:91,Xiaomi Communications Co. Ltd.
+DC:72:23,Xiaomi Communications Co. Ltd.
+28:E3:1F,Xiaomi Communications Co. Ltd.
+E4:B3:18,Xiaomi Communications Co. Ltd.
+40:31:3C,Xiaomi Communications Co. Ltd.
+20:34:FB,Xiaomi Communications Co. Ltd.
+78:02:F8,Xiaomi Communications Co. Ltd.
+D8:62:C1,ShenZhen HACO Technology Co. Ltd.
+C0:25:E9,TP-LINK TECHNOLOGIES CO. LTD.
+E8:DE:27,TP-LINK TECHNOLOGIES CO. LTD.
+60:32:B1,TP-LINK TECHNOLOGIES CO. LTD.
+54:AF:97,TP-LINK TECHNOLOGIES CO. LTD.
+B0:BE:76,TP-LINK TECHNOLOGIES CO. LTD.
+98:DA:C4,TP-LINK TECHNOLOGIES CO. LTD.
+A4:2B:B0,TP-LINK TECHNOLOGIES CO. LTD.
+38:1A:52,Seiko Epson Corporation
+AC:18:26,Seiko Epson Corporation
+00:26:AB,Seiko Epson Corporation
+E4:11:5B,Hewlett Packard
+1C:C1:DE,Hewlett Packard
+40:B0:34,Hewlett Packard
+D4:C9:EF,Hewlett Packard
+3C:07:54,Apple Inc.
+70:56:81,Apple Inc.
+CC:29:F5,Apple Inc.
+4C:32:75,Apple Inc.
+B0:34:95,Apple Inc.
+D0:25:98,Apple Inc.
+AC:FD:CE,Apple Inc.
+E0:B5:5F,Apple Inc.
+24:A0:74,Apple Inc.
+D0:33:11,Apple Inc.
+F4:5C:89,Apple Inc.
+48:60:5F,Apple Inc.
+80:E6:50,Apple Inc.
+88:E9:FE,Apple Inc.
+C8:D0:83,Apple Inc.
+3C:2E:F9,Apple Inc.
+E4:CE:8F,Apple Inc.
+90:DD:5D,Apple Inc.
+F0:D1:A9,Apple Inc.
+18:AF:61,Apple Inc.
+1C:36:BB,Apple Inc.
+60:F8:1D,Apple Inc.
+34:36:3B,Apple Inc.
+7C:04:D0,Apple Inc.
+64:A2:F9,Apple Inc.
+CC:08:8D,Apple Inc.
+84:FC:FE,Apple Inc.
+E0:C7:67,Apple Inc.
+A0:ED:CD,Apple Inc.
+5C:F9:38,Apple Inc.
+68:5B:35,Apple Inc.
+A8:51:AB,Apple Inc.
+B8:C1:11,Apple Inc.
+04:26:65,Apple Inc.
+38:F9:D3,Apple Inc.
+C0:E8:62,Apple Inc.
+D4:F4:6F,Apple Inc.
+98:01:A7,Apple Inc.
+7C:B7:7B,Foxconn Technology Group
+E4:54:E8,Huawei Technologies Co. Ltd.
+00:18:82,Huawei Technologies Co. Ltd.
+00:1E:10,Huawei Technologies Co. Ltd.
+D4:6A:A8,Huawei Technologies Co. Ltd.
+70:72:3C,Huawei Technologies Co. Ltd.
+B4:30:52,Huawei Technologies Co. Ltd.
+80:FB:06,Huawei Technologies Co. Ltd.
+C4:07:2F,Huawei Technologies Co. Ltd.
+E4:68:A3,Huawei Technologies Co. Ltd.
+20:08:ED,Huawei Technologies Co. Ltd.
+58:60:5F,Huawei Technologies Co. Ltd.
+00:9A:CD,Huawei Technologies Co. Ltd.
+3C:FA:43,Huawei Technologies Co. Ltd.
+84:DB:AC,Huawei Technologies Co. Ltd.
+E8:08:8B,Samsung Electronics Co. Ltd.
+C4:73:1E,Samsung Electronics Co. Ltd.
+94:35:0A,Samsung Electronics Co. Ltd.
+AC:36:13,Samsung Electronics Co. Ltd.
+40:4E:36,Samsung Electronics Co. Ltd.
+50:01:BB,Samsung Electronics Co. Ltd.
+F4:7B:09,Samsung Electronics Co. Ltd.
+78:47:1D,Samsung Electronics Co. Ltd.
+A0:82:1F,Samsung Electronics Co. Ltd.
+B4:3A:28,Samsung Electronics Co. Ltd.
+C0:BD:D1,Samsung Electronics Co. Ltd.
+20:D5:BF,Samsung Electronics Co. Ltd.
+5C:3C:27,Samsung Electronics Co. Ltd.
+E4:7C:F9,Samsung Electronics Co. Ltd.
+18:69:D8,Samsung Electronics Co. Ltd.
+D0:17:C2,ASUSTek COMPUTER INC.
+CC:20:E8,Apple Inc.
+D4:61:9D,Apple Inc.
+6C:4A:85,Apple Inc.
+90:8D:6C,Apple Inc.
+A8:5C:2C,Apple Inc.
+C8:69:CD,Apple Inc.
+18:EE:69,Apple Inc.
+04:F7:E4,Apple Inc.
+38:B1:DB,Hon Hai Precision Ind. Co. Ltd.
+74:D0:2B,ASUSTek COMPUTER INC.
+A8:5E:45,ASUSTek COMPUTER INC.
+B4:B5:B6,Aruba (Hewlett Packard Enterprise)
+00:24:6C,Aruba (Hewlett Packard Enterprise)
+D8:C7:C8,Aruba (Hewlett Packard Enterprise)
+20:4C:03,Aruba (Hewlett Packard Enterprise)
+24:F2:7F,Aruba (Hewlett Packard Enterprise)
+6C:F3:7F,Aruba (Hewlett Packard Enterprise)
+9C:1C:12,Aruba (Hewlett Packard Enterprise)
+84:D4:7E,Aruba (Hewlett Packard Enterprise)
+04:BD:88,Aruba (Hewlett Packard Enterprise)
+70:3A:0E,Aruba (Hewlett Packard Enterprise)
+F8:1A:67,TP-LINK TECHNOLOGIES CO. LTD.
+E0:05:C5,TP-LINK TECHNOLOGIES CO. LTD.
+C0:4A:00,TP-LINK TECHNOLOGIES CO. LTD.
+90:F6:52,TP-LINK TECHNOLOGIES CO. LTD.
+D4:6E:0E,TP-LINK TECHNOLOGIES CO. LTD.
+B0:95:75,TP-LINK TECHNOLOGIES CO. LTD.
+98:48:27,TP-LINK TECHNOLOGIES CO. LTD.
+70:4F:57,TP-LINK TECHNOLOGIES CO. LTD.
+48:22:54,TP-LINK TECHNOLOGIES CO. LTD.
+D8:0D:17,TP-LINK TECHNOLOGIES CO. LTD.
+14:EB:B6,TP-LINK TECHNOLOGIES CO. LTD.
+C4:E9:84,TP-LINK TECHNOLOGIES CO. LTD.
+E8:48:B8,TP-LINK TECHNOLOGIES CO. LTD.
+10:FE:ED,TP-LINK TECHNOLOGIES CO. LTD.
+5C:A6:E6,TP-LINK TECHNOLOGIES CO. LTD.
+78:44:76,TP-LINK TECHNOLOGIES CO. LTD.
+64:70:02,TP-LINK TECHNOLOGIES CO. LTD.
+B0:A7:B9,TP-LINK TECHNOLOGIES CO. LTD.
+CC:B0:DA,TP-LINK TECHNOLOGIES CO. LTD.
+10:27:F5,TP-LINK TECHNOLOGIES CO. LTD.
+5C:E5:0C,BUFFALO INC.
+6C:E8:73,TP-LINK TECHNOLOGIES CO. LTD.
+C0:06:C3,TP-LINK TECHNOLOGIES CO. LTD.
+3C:52:A1,TP-LINK TECHNOLOGIES CO. LTD.
+18:A6:F7,TP-LINK TECHNOLOGIES CO. LTD.
+00:27:19,TP-LINK TECHNOLOGIES CO. LTD.
+94:D9:B3,TP-LINK TECHNOLOGIES CO. LTD.
+14:CF:92,TP-LINK TECHNOLOGIES CO. LTD.
+EC:26:CA,TP-LINK TECHNOLOGIES CO. LTD.
+00:23:69,Cisco-Linksys LLC
+E4:8D:8C,Routerboard (MikroTik)
+64:D1:54,Routerboard (MikroTik)
+C4:AD:34,Routerboard (MikroTik)
+2C:C8:1B,Routerboard (MikroTik)
+6C:3B:6B,Routerboard (MikroTik)
+B8:69:F4,Routerboard (MikroTik)
+D4:CA:6D,Routerboard (MikroTik)
+E4:8D:8C,Routerboard (MikroTik)
+48:A9:8A,Routerboard (MikroTik)
+74:4D:28,Routerboard (MikroTik)
+00:04:56,Routerboard (MikroTik)
+B8:F0:09,Qnap Systems Inc.
+24:5E:BE,Qnap Systems Inc.
+00:08:9B,ICP Electronics Inc.
+EC:B5:FA,Philips Lighting BV
+00:1F:E1,Philips Lighting BV
+00:22:44,Cheng Uei Precision Industry Co.
+08:00:27,PCS Systemtechnik GmbH (VirtualBox)
+52:54:00,QEMU Virtual NIC
+00:16:3E,Xensource Inc.
+CC:2D:E0,Routerboard (MikroTik)
+4C:5E:0C,Routerboard (MikroTik)
+18:FD:74,Routerboard (MikroTik)
+08:55:31,Routerboard (MikroTik)
+74:AC:B9,Ubiquiti Inc.
+E0:63:DA,Ubiquiti Inc.
+AC:8B:A9,Ubiquiti Inc.
+68:72:51,Ubiquiti Inc.
+DC:9F:DB,Ubiquiti Inc.
+78:45:58,Ubiquiti Inc.
+24:A4:3C,Ubiquiti Inc.
+44:D9:E7,Ubiquiti Inc.
+9C:05:D6,Ubiquiti Inc.
