@@ -4,7 +4,6 @@
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
 
@@ -211,12 +210,6 @@ To contribute:
 3. Commit changes (`git commit -am 'Add feature'`)
 4. Push to branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-MIT License — see `LICENSE` file for details.
 
 ---
 
