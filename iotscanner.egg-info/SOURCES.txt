@@ -2,6 +2,7 @@ README.md
 pyproject.toml
 iotscanner/__init__.py
 iotscanner/cli.py
+iotscanner/shell.py
 iotscanner.egg-info/PKG-INFO
 iotscanner.egg-info/SOURCES.txt
 iotscanner.egg-info/dependency_links.txt
