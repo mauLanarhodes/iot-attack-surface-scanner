@@ -1,12 +1,22 @@
 """Device fingerprinting: OUI lookup, UPnP XML parsing, HTTP banner grab."""
 
+import asyncio
+
 import httpx
 from lxml import etree
-from mac_vendor_lookup import MacLookup, VendorNotFoundError
+from mac_vendor_lookup import AsyncMacLookup
 
 from iotscanner.scanner.discovery import DiscoveredDevice
 
-_mac_lookup = MacLookup()
+# Pre-load the IEEE OUI database once at import (synchronously, before any
+# event loop is running) so lookups during async scans are pure dict access.
+# MacLookup.lookup() is a sync wrapper around an async call that breaks when
+# invoked from inside another running event loop.
+_async_lookup = AsyncMacLookup()
+try:
+    asyncio.run(_async_lookup.load_vendors())
+except Exception:
+    pass
 
 
 def oui_lookup(mac: str) -> str | None:
@@ -18,9 +28,13 @@ def oui_lookup(mac: str) -> str | None:
     Returns:
         Vendor name string or None if not found.
     """
+    if not _async_lookup.prefixes:
+        return None
     try:
-        return _mac_lookup.lookup(mac)
-    except (VendorNotFoundError, Exception):
+        prefix = mac.replace(":", "").replace("-", "").replace(".", "").upper()[:6].encode("utf8")
+        result = _async_lookup.prefixes.get(prefix)
+        return result.decode("utf8") if result else None
+    except Exception:
         return None
 
 
