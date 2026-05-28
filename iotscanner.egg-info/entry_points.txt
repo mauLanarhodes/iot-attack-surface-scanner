@@ -1,2 +1,2 @@
 [console_scripts]
-iotscanner = iotscanner.cli:app
+iotscanner = iotscanner.cli:main

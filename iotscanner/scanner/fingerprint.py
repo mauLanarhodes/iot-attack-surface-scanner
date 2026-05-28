@@ -1,53 +1,27 @@
 """Device fingerprinting: OUI lookup, UPnP XML parsing, HTTP banner grab."""
 
-import csv
-from pathlib import Path
-
 import httpx
 from lxml import etree
+from mac_vendor_lookup import MacLookup, VendorNotFoundError
 
 from iotscanner.scanner.discovery import DiscoveredDevice
 
-# Path to the OUI database CSV
-OUI_CSV_PATH = Path(__file__).parent.parent.parent / "data" / "oui_database.csv"
-
-# Module-level OUI cache
-_oui_cache: dict[str, str] | None = None
-
-
-def _load_oui_database() -> dict[str, str]:
-    """Load OUI CSV into a dict mapping uppercase OUI prefix → vendor name."""
-    global _oui_cache
-    if _oui_cache is not None:
-        return _oui_cache
-
-    _oui_cache = {}
-    if not OUI_CSV_PATH.exists():
-        return _oui_cache
-
-    with open(OUI_CSV_PATH, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            oui = row["oui"].strip().upper()
-            vendor = row["vendor"].strip()
-            _oui_cache[oui] = vendor
-
-    return _oui_cache
+_mac_lookup = MacLookup()
 
 
 def oui_lookup(mac: str) -> str | None:
-    """Look up the vendor for a MAC address using the OUI database.
+    """Look up vendor for a MAC address using the full
+    IEEE OUI database bundled with mac-vendor-lookup.
 
     Args:
-        mac: MAC address in format "XX:XX:XX:XX:XX:XX"
-
+        mac: MAC address in any standard format.
     Returns:
-        Vendor name or None if not found.
+        Vendor name string or None if not found.
     """
-    db = _load_oui_database()
-    # Take first 3 octets: "DC:A6:32:xx:xx:xx" → "DC:A6:32"
-    prefix = mac.upper()[:8]
-    return db.get(prefix)
+    try:
+        return _mac_lookup.lookup(mac)
+    except (VendorNotFoundError, Exception):
+        return None
 
 
 async def fetch_upnp_xml(location: str) -> dict:

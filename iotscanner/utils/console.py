@@ -12,6 +12,8 @@ console = Console()
 def _format_last_seen(dt: datetime | None) -> str:
     if dt is None:
         return "-"
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
     now = datetime.now(timezone.utc)
     diff = (now - dt).total_seconds()
     if diff < 60:

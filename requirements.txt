@@ -8,3 +8,4 @@ httpx==0.28.1
 sqlalchemy==2.0.48
 python-dotenv==1.2.2
 lxml==6.0.2
+mac-vendor-lookup>=0.1.15
