@@ -5,28 +5,50 @@ import sys
 
 from iotscanner import __version__
 from iotscanner.scanner.discovery import get_local_subnet
-from iotscanner.shell import ScannerShell
 from iotscanner.utils.console import console
 
 
-def main() -> None:
-    """Parse arguments and launch the scanner."""
+def build_parser() -> argparse.ArgumentParser:
+    """Build and return the argument parser."""
     parser = argparse.ArgumentParser(
         prog="iotscanner",
-        description="IoT Attack Surface Scanner — discover and fingerprint devices on your network",
+        description=(
+            "IoT Attack Surface Scanner — discover, fingerprint, and assess\n"
+            "IoT devices on your local network.\n\n"
+            "QUICK START:\n"
+            "  iotscanner --launch                   # Auto-detect subnet and launch\n"
+            "  iotscanner --launch 192.168.1.0/24    # Launch with specific subnet\n"
+            "  iotscanner --launch --passive          # Launch without active UPnP probes\n\n"
+            "SHELL COMMANDS (once launched):\n"
+            "  scan                 Run full network scan\n"
+            "  scan --passive       Scan without active UPnP probes\n"
+            "  scan --timeout=5     Scan with custom timeout (seconds)\n"
+            "  devices              List all discovered devices\n"
+            "  devices --json       Export devices as JSON\n"
+            "  devices --filter <x> Filter by vendor or IP prefix\n"
+            "  report               Save scan report to ~/.iotscanner/\n"
+            "  clear                Clear the screen\n"
+            "  help                 Show command reference\n"
+            "  exit                 Exit the scanner"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
+
     parser.add_argument(
-        "subnet",
+        "--launch",
         nargs="?",
-        default=None,
-        help="Target subnet (e.g., 192.168.1.0/24). If omitted, auto-detect local subnet.",
+        const="auto",         # --launch with no argument → auto-detect
+        metavar="SUBNET",
+        help=(
+            "Launch the interactive shell. Optionally pass a subnet "
+            "(e.g. --launch 192.168.1.0/24). Omit to auto-detect."
+        ),
     )
     parser.add_argument(
-        "-c",
-        "--command",
-        type=str,
-        default=None,
-        help="Run a single command and exit (e.g., 'scan', 'devices')",
+        "--passive",
+        action="store_true",
+        default=False,
+        help="Suppress active UPnP/SSDP probes during launch (passive mode).",
     )
     parser.add_argument(
         "--version",
@@ -34,22 +56,55 @@ def main() -> None:
         version=f"iotscanner v{__version__}",
     )
 
+    return parser
+
+
+def main() -> None:
+    """Parse arguments and launch the scanner."""
+    parser = build_parser()
     args = parser.parse_args()
 
-    if args.subnet is None and len(sys.argv) == 1:
-        console.print("[bold cyan]IoT Attack Surface Scanner[/bold cyan]")
-        console.print("Usage: iotscanner <subnet> [-c COMMAND]")
-        console.print("Example: iotscanner 192.168.1.0/24")
-        console.print("Run 'iotscanner --help' for more options.")
+    # No arguments → print concise usage hint, not the full help wall
+    if len(sys.argv) == 1:
+        console.print(
+            "[bold cyan]iotscanner[/bold cyan] [dim]v{v}[/dim]".format(v=__version__)
+        )
+        console.print(
+            "  [green]iotscanner --launch[/green]               "
+            "[dim]Auto-detect subnet and launch[/dim]"
+        )
+        console.print(
+            "  [green]iotscanner --launch 192.168.1.0/24[/green]  "
+            "[dim]Launch with specific subnet[/dim]"
+        )
+        console.print(
+            "  [green]iotscanner --help[/green]                 "
+            "[dim]Full usage and command reference[/dim]"
+        )
+        console.print(
+            "  [green]iotscanner --version[/green]              "
+            "[dim]Print version[/dim]"
+        )
         sys.exit(0)
 
-    subnet = args.subnet if args.subnet else get_local_subnet()
+    if args.launch is not None:
+        # Resolve subnet: explicit value or auto-detect
+        if args.launch == "auto":
+            subnet = get_local_subnet()
+            console.print(
+                f"[dim]Auto-detected subnet:[/dim] [bold cyan]{subnet}[/bold cyan]"
+            )
+        else:
+            subnet = args.launch
 
-    shell = ScannerShell(subnet)
-    if args.command:
-        shell.run_command(args.command)
-    else:
+        # Import here to avoid slow startup on --version / --help
+        from iotscanner.shell import ScannerShell
+        shell = ScannerShell(subnet, passive=args.passive)
         shell.run()
+    else:
+        # Ran with unrecognised args or forgot --launch
+        parser.print_help()
+        sys.exit(1)
 
 
 app = main

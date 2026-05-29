@@ -23,6 +23,7 @@ class Device(Base):
     manufacturer: Mapped[str | None] = mapped_column(String, nullable=True)
     http_banner: Mapped[str | None] = mapped_column(String, nullable=True)
     services: Mapped[list | None] = mapped_column(JSON, nullable=True)
+    open_ports: Mapped[list | None] = mapped_column(JSON, nullable=True)
     upnp_location: Mapped[str | None] = mapped_column(String, nullable=True)
     first_seen: Mapped[datetime] = mapped_column(
         DateTime, default=lambda: datetime.now(timezone.utc)
